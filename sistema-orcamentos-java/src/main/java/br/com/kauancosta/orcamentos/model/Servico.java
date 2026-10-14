@@ -4,9 +4,6 @@ import br.com.kauancosta.orcamentos.strategy.CalculadoraPreco;
 
 import java.util.Objects;
 
-/**
- * Representa um item de serviço incluído em um orçamento.
- */
 public class Servico {
     private final String nome;
     private final double quantidade;

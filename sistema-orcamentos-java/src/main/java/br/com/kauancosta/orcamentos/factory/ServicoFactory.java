@@ -5,10 +5,6 @@ import br.com.kauancosta.orcamentos.strategy.CalculoDrywall;
 import br.com.kauancosta.orcamentos.strategy.CalculoInstalacao;
 import br.com.kauancosta.orcamentos.strategy.CalculoPintura;
 
-/**
- * Fábrica responsável por instanciar os tipos de serviço e configurar suas
- * respectivas estratégias de precificação.
- */
 public class ServicoFactory {
     public Servico criarServico(String tipo, String nome, double quantidade) {
         if (tipo == null) {

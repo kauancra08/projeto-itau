@@ -1,8 +1,5 @@
 package br.com.kauancosta.orcamentos.config;
 
-/**
- * Gerenciador de configurações gerais do sistema (Singleton).
- */
 public final class ConfiguracaoSistema {
     private static final ConfiguracaoSistema INSTANCIA = new ConfiguracaoSistema();
 

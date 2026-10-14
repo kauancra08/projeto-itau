@@ -6,9 +6,6 @@ import br.com.kauancosta.orcamentos.model.Servico;
 import java.util.ArrayList;
 import java.util.List;
 
-/**
- * Construtor fluente (Builder) para facilitar a montagem e validação de instâncias de Orcamento.
- */
 public class OrcamentoBuilder {
     private String cliente;
     private final List<Servico> servicos = new ArrayList<>();
