@@ -89,12 +89,4 @@ sistema-orcamentos-java/
         └── CalculoPintura.java
 ```
 
-## Próximos Passos
-
-- [ ] Persistência de dados em banco relacional (PostgreSQL / H2)
-- [ ] Implementação de testes unitários com JUnit 5
-- [ ] Interface de linha de comando interativa (CLI com Scanner) ou API REST
-- [ ] Exportação de orçamentos em formato PDF
-
----
 Desenvolvido por [Kauan Gonçalves](https://github.com/kauancra08)
